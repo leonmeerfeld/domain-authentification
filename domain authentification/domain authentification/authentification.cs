@@ -19,9 +19,6 @@ namespace Domain_authentification
 
             string principleName = username + "." + fqdn[1] + "." + fqdn[2];
 
-            Hashtable ht = new Hashtable();
-            ht.Add(System.Security.Principal.);
-
             return true;
         }
     }
