@@ -47,6 +47,9 @@ namespace Domain_authentification
             {
                 Console.WriteLine("Credentials are wrong");
             }
+
+            //Console.WriteLine(a.validate_credentials(username, password));
+
             Console.ReadKey();
         }
     }
